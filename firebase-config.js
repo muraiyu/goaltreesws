@@ -1,13 +1,10 @@
-// Firebase の設定。Firebase コンソールの「プロジェクトの設定」→「マイアプリ」に出る firebaseConfig をここに貼る。
-// 空(null)のあいだは、ログインなしでこの端末だけに保存する。
-window.FIREBASE_CONFIG = null;
-/* 例:
+// Firebase の設定(プロジェクト goaltree-a9980)。この値は公開しても問題のない種類のもの。
+// データの安全は Firestore のルール(自分のデータだけ読み書きできる)で守られる。
 window.FIREBASE_CONFIG = {
-  apiKey: "AIza....",
-  authDomain: "goaltree-xxxx.firebaseapp.com",
-  projectId: "goaltree-xxxx",
-  storageBucket: "goaltree-xxxx.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef"
+  apiKey: "AIzaSyC4YfS7L7faGaf-jLTDFp__40SOBkC6Ubg",
+  authDomain: "goaltree-a9980.firebaseapp.com",
+  projectId: "goaltree-a9980",
+  storageBucket: "goaltree-a9980.firebasestorage.app",
+  messagingSenderId: "896236548203",
+  appId: "1:896236548203:web:7c1413941d3b33df2d012e"
 };
-*/
